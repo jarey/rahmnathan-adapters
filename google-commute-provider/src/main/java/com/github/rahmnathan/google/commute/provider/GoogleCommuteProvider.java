@@ -4,10 +4,8 @@ import com.github.rahmnathan.commute.provider.CommuteProvider;
 import com.github.rahmnathan.http.control.HttpClient;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import java.util.logging.Logger;
 
 public class GoogleCommuteProvider implements CommuteProvider {
-    private final Logger logger = Logger.getLogger(GoogleCommuteProvider.class.getName());
     private final String apiKey;
 
     public GoogleCommuteProvider(String apiKey) {
